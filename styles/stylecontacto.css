@@ -13,6 +13,16 @@ body {
   background-color: #fff;
 }
 
+.volver {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.volver a {
+  text-decoration: none;
+}
+
 .formulario {
   max-width: 700px;
   width: 100%;
@@ -38,6 +48,7 @@ body {
   width: 100px;
   text-align: right;
   margin-right: 10px;
+  font-size: 18px;
 }
 
 .form-grupo input,
@@ -51,7 +62,13 @@ body {
   height: 100px;
 }
 
-.formulario .boton-enviar {
+.boton-enviar {
   text-align: center;
   margin-top: 30px;
+}
+
+.boton-enviar button {
+  width: 100px;
+  padding: 5px;
+  font-size: 18px;
 }
